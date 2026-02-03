@@ -1,0 +1,13 @@
+# compiled files
+*.o
+*.out
+miniC_compiler
+
+# generated files
+lex.yy.c
+y.tab.c
+y.tab.h
+y.output
+
+# OS files
+.DS_Store
