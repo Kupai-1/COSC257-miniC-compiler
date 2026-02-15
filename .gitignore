@@ -2,12 +2,27 @@
 *.o
 *.out
 miniC_compiler
+optimizer
 
-# generated files
+# generated files - part1 (lex/yacc)
 lex.yy.c
 y.tab.c
 y.tab.h
 y.output
 
+# generated files - part3 (optimizer test outputs)
+test_*.ll
+*.ll.opt
+
+# test files (temporary)
+test.c
+test_debug.c
+test_simple.c
+
 # OS files
 .DS_Store
+
+# editor backups
+*~
+*.swp
+*.swo
